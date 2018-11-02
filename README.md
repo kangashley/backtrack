@@ -1,5 +1,5 @@
 # An open source project in progress
-An open source project collaboration between Ashley Kang (@kangashley) and Jazmin Esqueda (@jazesq), for "Software Development with Open Source Systems"
+An open source project collaboration between Ashley Kang ([@kangashley](https://github.com/kangashley)) and Jazmin Esqueda ([@jazesq](https://github.com/jazesq)), for "Software Development with Open Source Systems"
 
 ## Features
 - Remember Windows Media Player? How might we make music listening more visual?
