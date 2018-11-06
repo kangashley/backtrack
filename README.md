@@ -19,7 +19,7 @@ An open source project collaboration between Ashley Kang ([@kangashley](https://
   - [p5.jsound library](https://p5js.org/reference/#/libraries/p5.sound)
   - [Web Audio School](http://mmckegg.github.io/web-audio-school/) (Matt McKegg)
   - [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
-  - [Spoity Web API Java](https://github.com/thelinmichael/spotify-web-api-java) (Michael Thelin)
+  - [Spotify Web API Java](https://github.com/thelinmichael/spotify-web-api-java) (Michael Thelin)
   - ["Communicating Between Java Applets and Javascript"](http://dillonbuchanan.com/programming/communicating-between-java-applets-and-javascript/) (Dillon Buchanan)
 - Open source license
   - [Spotify Developer Terms of Service](https://developer.spotify.com/terms/)
