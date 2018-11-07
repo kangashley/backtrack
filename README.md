@@ -4,10 +4,13 @@ An open source project collaboration between Ashley Kang ([@kangashley](https://
 ## Features
 - Remember Windows Media Player? How might we make music listening more visual?
 - How might we analyze data about sounds to make visible all the people and work behind making sounds?
+- How might we connect sounds with visuals?
 
 ## Research
 - Building a tool
   - [Coördinator](https://spotify.github.io/coordinator/), ["Introducing Coördinator"](https://labs.spotify.com/2018/03/02/introducing-coordinator-a-new-open-source-project-made-at-spotify-to-inject-some-whimsy-into-data-visualizations/) (Aliza Aufrichtig)
+  - [Artist Explorer](https://github.com/fsahin/artist-explorer) (Faruk Emre Sahin)
+  - [Creatability](https://experiments.withgoogle.com/collection/creatability)
 - Visualizing sound
   - [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) (Chan Jun Shern)
   - [Party Mode](https://preziotte.com/partymode/) (Mathew Preziotte)
@@ -17,10 +20,13 @@ An open source project collaboration between Ashley Kang ([@kangashley](https://
   - [ofBook / Image Processing and Computer Vision](https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html) (Golan Levin, ed. Brannon Dorsey)
   - [How to Think Like a Computer Scientist / 8.10. 2-Dimensional Iteration: Image Processing](http://interactivepython.org/courselib/static/thinkcspy/MoreAboutIteration/2DimensionalIterationImageProcessing.html) (Brad Miller, David Ranum)
   - [p5.jsound library](https://p5js.org/reference/#/libraries/p5.sound)
+  - [Visualizing Music with p5.js](https://therewasaguy.github.io/p5-music-viz/) (Jason Sigal)
+  - [Sound as Data Workshop](https://github.com/mariuswatz/ITP2013Parametric/tree/master/ITP-workshops/20131111-ITP-Sound-As-Data) (Marius Watz)
   - [Web Audio School](http://mmckegg.github.io/web-audio-school/) (Matt McKegg)
   - [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
   - [Spotify Web API Java](https://github.com/thelinmichael/spotify-web-api-java) (Michael Thelin)
   - ["Communicating Between Java Applets and Javascript"](http://dillonbuchanan.com/programming/communicating-between-java-applets-and-javascript/) (Dillon Buchanan)
+  - [SoundCloud HTTP API Guide](https://developers.soundcloud.com/docs/api/guide)
 - Open source license
   - [Spotify Developer Terms of Service](https://developer.spotify.com/terms/)
   
