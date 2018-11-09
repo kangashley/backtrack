@@ -25,7 +25,8 @@ _November 8_
   - 🔍 [Essential Electron](http://jlord.us/essential-electron/) (Jessica Lord)
   - [p5.js Reference](https://p5js.org/reference/)
   - [p5.jsound Library](https://p5js.org/reference/#/libraries/p5.sound)
-  - 🔍 [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)  - 🔍 [Arielle Vaniderstine (@a) on Glitch](https://glitch.com/@a)
+  - 🔍 [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
+  - 🔍 [Arielle Vaniderstine (@a) on Glitch](https://glitch.com/@a)
   - [SoundCloud HTTP API Guide](https://developers.soundcloud.com/docs/api/guide)
 - Open source license
   - [Spotify Developer Terms of Service](https://developer.spotify.com/terms/)
