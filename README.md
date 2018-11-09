@@ -9,7 +9,7 @@ An open source project collaboration between Ashley Kang ([@kangashley](https://
 ## Check-ins
 _November 8_
   - Ashley: Studying audio features "danceability", "energy", and "valence" from Spotify Web API's [Get Audio Features for a Track](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/). Navigating authorization stuff in Spotify. Looking into "remixing" a project in Glitch that sets up Spotify API requests with NodeJS.
-  - Jazmin: Figuring out the direction and speed of a bouncing ball animation in p5.js. A similar exploration was done in Java, but p5.js takes care of things that were previously written from scratch, like the canvas size.
+  - Jazmin: Figuring out the direction and speed of a bouncing ball animation in p5.js. A similar exploration was done in Java, but p5.js takes care of things that were previously written from scratch (like the canvas size) and is a web-friendly open source library based on Processing, which is based on Java!
 
 ## Research
 - Building a tool
