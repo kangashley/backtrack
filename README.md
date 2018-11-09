@@ -26,6 +26,7 @@ _November 8_
   - [p5.js Reference](https://p5js.org/reference/)
   - [p5.jsound Library](https://p5js.org/reference/#/libraries/p5.sound)
   - 🔍 [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
+  - 🔍 [Spotify for Developers](https://developer.spotify.com/discover/)
   - 🔍 [Arielle Vaniderstine (@a) on Glitch](https://glitch.com/@a)
   - [SoundCloud HTTP API Guide](https://developers.soundcloud.com/docs/api/guide)
 - Open source license
