@@ -21,6 +21,7 @@ _November 8_
   - 🔍 [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) (Chan Jun Shern)
   - [Party Mode](https://preziotte.com/partymode/) (Mathew Preziotte)
   - 🔍 [Music ideas on Glitch](https://glitch.com/music)
+  - [fftvisualize](https://glitch.com/~fftvisualize) (Hector Urtubia)
 - Technology stack
   - 🔍 [Essential Electron](http://jlord.us/essential-electron/) (Jessica Lord)
   - [p5.js Reference](https://p5js.org/reference/)
@@ -28,7 +29,6 @@ _November 8_
   - 🔍 [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
   - 🔍 [Spotify for Developers](https://developer.spotify.com/discover/)
   - 🔍 [Arielle Vaniderstine (@a) on Glitch](https://glitch.com/@a)
-  - [SoundCloud HTTP API Guide](https://developers.soundcloud.com/docs/api/guide)
 - Open source license
   - [Spotify Developer Terms of Service](https://developer.spotify.com/terms/)
 - On the shelf
@@ -40,6 +40,7 @@ _November 8_
   - [Web Audio School](http://mmckegg.github.io/web-audio-school/) (Matt McKegg)
   - [Spotify Web API Java](https://github.com/thelinmichael/spotify-web-api-java) (Michael Thelin)
   - ["Communicating Between Java Applets and Javascript"](http://dillonbuchanan.com/programming/communicating-between-java-applets-and-javascript/) (Dillon Buchanan)
+  - [SoundCloud HTTP API Guide](https://developers.soundcloud.com/docs/api/guide)
   
 ## Requirements
 
