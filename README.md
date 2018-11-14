@@ -29,6 +29,7 @@ _November 8_
   - 🔍 [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
   - 🔍 [Spotify for Developers](https://developer.spotify.com/discover/)
   - 🔍 [Arielle Vaniderstine (@a) on Glitch](https://glitch.com/@a)
+  - [Introduction to Data and APIs in JavaScript - p5.js Tutorial](https://www.youtube.com/watch?v=rJaXOFfwGVw) (Daniel Shiffman)
 - Open source license
   - [Spotify Developer Terms of Service](https://developer.spotify.com/terms/)
 - On the shelf
