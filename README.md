@@ -8,7 +8,7 @@ An open source project collaboration between Ashley Kang ([@kangashley](https://
 
 ## Check-ins
 _November 15_
-  - Ashley: Working over at [Backtrack on Glitch](https://backtrack.glitch.me/). Thinking about how the movement of a visual form can be determined by a range based on an audio feature value. Bringing in [p5.js script](https://p5js.org/download/).
+  - Ashley: Working over at [Backtrack on Glitch](https://backtrack.glitch.me/). Thinking about how the movement of a visual form can be determined by a range based on an audio feature value. Bringing in [p5.js script](https://p5js.org/download/). Exploring [song credits info](https://www.discogs.com/help/creditslist) thanks to [Discogs API](https://www.discogs.com/developers/#page:database,header:database-artist) and fetching multiple APIs using async and await in JavaScript.
   
 _November 8_
   - Ashley: Studying audio features "danceability", "energy", and "valence" from Spotify Web API's [Get Audio Features for a Track](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/). Navigating authorization stuff in Spotify. Looking into "remixing" a project in Glitch that sets up Spotify API requests with NodeJS.
