@@ -26,7 +26,9 @@ _November 8_
   - 🔍 [Music ideas on Glitch](https://glitch.com/music)
   - [fftvisualize](https://glitch.com/~fftvisualize) (Hector Urtubia)
 - Technology stack
-  - 🔍 [Essential Electron](http://jlord.us/essential-electron/) (Jessica Lord)
+  - 🔍 [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance)
+  - 🔍 [Async/Await Will Make Your Code Simpler](https://blog.patricktriest.com/what-is-async-await-why-should-you-care/)
+  - [Essential Electron](http://jlord.us/essential-electron/) (Jessica Lord)
   - [p5.js Reference](https://p5js.org/reference/)
   - [p5.jsound Library](https://p5js.org/reference/#/libraries/p5.sound)
   - 🔍 [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
