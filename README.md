@@ -71,6 +71,6 @@ _November 8_
   - Weekly check-ins and temperature checks on how we feel about our tasks and workloads have been helpful.
 - [ ] Are we contributing to a code base to (a) solve a problem we've identified, (b) facilitate the performance of a difficult task, _or_ (c) provide functionalities that are missing in other applications?
 - [ ] Are we designing code that can adapt to changes in code dependencies?
-  - Refactoring involved upgrading dependencies.
+  - Refactoring server.js involved upgrading the Node.js dependency in order to use new JavaScript features (async/await, destructuring).
 - [ ] Are we documenting code that the open source community can easily understand and use?
 - [ ] Are we using an appropriate [open source license](https://choosealicense.com/licenses/) based on the libraries we've used and how we want our project to be used?
