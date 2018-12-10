@@ -1,13 +1,34 @@
 # Backtrack: An open source project in progress
-Creating a playlist? Search for a track in Spotify's catalog to figure out how much danceability, energy, and moodiness to add to your mix. Backtrack is an open source project collaboration between Ashley Kang ([@kangashley](https://github.com/kangashley)) and Jazmin Esqueda ([@jazesq](https://github.com/jazesq)), for "Software Development with Open Source Systems."
+
+## About
+Creating a playlist? Look up any track in Spotify's catalog for more info on how much danceability, energy, and moodiness to add to your mix. Backtrack is a remix of Spotify Developer Advocate Arielle Vaniderstine's Audio Features project on Glitch under the MIT License and an open source project collaboration between Ashley Kang ([@kangashley](https://github.com/kangashley)) and Jazmin Esqueda ([@jazesq](https://github.com/jazesq)) for "Software Development with Open Source Systems" (Fall 2018).
+
+## Guiding questions
+- Remember the days we listened to tracks on Windows Media Player? How might we make music listening more visual and more in tune with what we're doing and where we're at in our lives?
+- How might we analyze data about sounds to make visible all the people and work behind making sounds?
 
 ## Features
-- Remember Windows Media Player? How might we make music listening more visual?
-- How might we analyze data about sounds to make visible all the people and work behind making sounds?
-- How might we connect sounds with visuals?
+- Server: Node.js 10 with Express 4, Spotify Web API via [Node.js wrapper](https://github.com/thelinmichael/spotify-web-api-node) and [Client Credentials App Authorization Flow](https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow)
+- Data: JSON from Spotify Web API [Get Several Tracks](https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-tracks/) and [Get Audio Features for a Track](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/) endpoints
+- Client: HTML, CSS, JavaScript with jQuery and p5.js libraries, Google Fonts
+- Visualization:
 > **Danceability** describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 
 1.0 is most danceable. **Energy** is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset 
 rate, and general entropy. **Valence** is a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+## Contributor's guide
+We welcome constructive feedback and contributions in the form of design, code, documentation, accessibility practices, etc. Please open an issue to submit a pull request or remix the project in Glitch and share your work with us!
+
+### Getting started
+- New to open source? Start at [First Timers Only](https://www.firsttimersonly.com/), check out [Mozilla Pulse](https://www.mozillapulse.org/featured) to learn about projects for an open and healthy internet, and consider participating in GitHub's [24 Pull Requests](https://24pullrequests.com/)! 🎁 More soon on our thoughts about open source.
+- Explore the [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/).
+- Study the audio feature values of tracks from 4 umbrella genres (ambient/electronic, hip hop, pop, jazz/R&B/soul). Here's a [playlist](https://open.spotify.com/playlist/5Cox7Zd2wTFFIOO1KOwpAW) of the songs we studied.
+
+### How to contribute
+- Some nice-to-have features we've discussed:
+  - Test accessibility
+  - After searching a track, add it to a playlist in your library
+  - Display [Song Credits](https://www.theverge.com/2018/8/14/17689230/spotify-songwriter-producer-credits-display) info front and center (once Spotify releases an API endpoint for that)
 
 ## Check-ins
 _December 6_
@@ -16,7 +37,7 @@ _December 6_
   - #TODO: Connect data from `server.js` to `client.js`. Prepare .zip of source code. Export project from Glitch to GitHub (there's a button for this!). Add contributor guide to documentation.
 
 _December 1_
-  - Ashley: Considering a design in which you can search for a track on a left panel, then see a stack of audio feature visualizations on the right. Exploring meaningful visuals (ex: 💃🏽🏻🕺 emoji, .png), animation patterns (ex: waves), and color schemes for each audio feature. Defining how an audio feature value determines the "intensity" of the animation. Refactoring server.js using async/await so we can actually see the API data (in JSON) in the console when looking up and selecting a track!
+  - Ashley: Considering a design in which you can search for a track on a left panel, then see a stack of audio feature visualizations on the right. Exploring meaningful visuals (ex: 💃🏽🕺🏽 emoji, .png), animation patterns (ex: waves), and color schemes for each audio feature. Defining how an audio feature value determines the "intensity" of the animation. Refactoring server.js using async/await so we can actually see the API data (in JSON) in the console when looking up and selecting a track!
 
 _November 15_
   - Ashley: Working over at [Backtrack on Glitch](https://backtrack.glitch.me/). Thinking about how the movement of a visual form can be determined by a range based on an audio feature value. Bringing in [p5.js script](https://p5js.org/download/). Exploring [song credits info](https://www.discogs.com/help/creditslist) thanks to [Discogs API](https://www.discogs.com/developers/#page:database,header:database-artist) and fetching multiple APIs using async and await in JavaScript.
@@ -31,21 +52,26 @@ _November 8_
   - [Artist Explorer](https://github.com/fsahin/artist-explorer) (Faruk Emre Sahin)
   - [Creatability](https://experiments.withgoogle.com/collection/creatability)
   - 🔍 [Spotify Audio Features](https://audio-features.glitch.me/) (Arielle Vaniderstine)
-- Visualizing sound
+- Visualizing sound data
+  - 🔍 [10x18](http://10x18.co/) (Eric R. Mortensen, Richard Perez, Jen DeRosa)
   - 🔍 [Algorithmic Music Composition](https://junshern.github.io/algorithmic-music-tutorial/) (Chan Jun Shern)
   - [Party Mode](https://preziotte.com/partymode/) (Mathew Preziotte)
   - 🔍 [Music ideas on Glitch](https://glitch.com/music)
   - [fftvisualize](https://glitch.com/~fftvisualize) (Hector Urtubia)
 - Technology stack
-  - 🔍 [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance)
+  - 🔍 [Using Async Await in Express with Node 9](https://medium.com/@Abazhenov/using-async-await-in-express-with-node-8-b8af872c0016)
+  - [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance)
   - 🔍 [Async/Await Will Make Your Code Simpler](https://blog.patricktriest.com/what-is-async-await-why-should-you-care/)
   - [Essential Electron](http://jlord.us/essential-electron/) (Jessica Lord)
-  - [p5.js Reference](https://p5js.org/reference/)
+  - 🔍 [p5.js Reference](https://p5js.org/reference/)
   - [p5.jsound Library](https://p5js.org/reference/#/libraries/p5.sound)
   - 🔍 [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/)
   - 🔍 [Spotify for Developers](https://developer.spotify.com/discover/)
   - 🔍 [Arielle Vaniderstine (@a) on Glitch](https://glitch.com/@a)
-  - [Introduction to Data and APIs in JavaScript - p5.js Tutorial](https://www.youtube.com/watch?v=rJaXOFfwGVw) (Daniel Shiffman)
+  - 🔍 [Introduction to Data and APIs in JavaScript - p5.js Tutorial](https://www.youtube.com/watch?v=rJaXOFfwGVw) (Daniel Shiffman)
+- Documentation
+  - [Final Project Proposal Template](https://github.com/Open-Source-Studio-at-ITP/Final-Projects/blob/source/proposal-template.md) ("Open Source Studio" at NYU ITP)
+  - [Contribute your story to Episode 1: How the Internet Saved My Life](https://intersectto.gitbook.io/community/our-digital-selves/episode-1-how-the-internet-saved-my-life) (IntersectTO)
 - Open source license
   - [Spotify Developer Terms of Service](https://developer.spotify.com/terms/)
 - On the shelf
@@ -71,6 +97,6 @@ _November 8_
   - Weekly check-ins and temperature checks on how we feel about our tasks and workloads have been helpful.
 - [ ] Are we contributing to a code base to (a) solve a problem we've identified, (b) facilitate the performance of a difficult task, _or_ (c) provide functionalities that are missing in other applications?
 - [ ] Are we designing code that can adapt to changes in code dependencies?
-  - Refactoring server.js involved upgrading the Node.js dependency in order to use new JavaScript features (async/await, destructuring).
+  - Refactoring `server.js` involved upgrading the Node.js dependency in order to use new JavaScript features (async/await, destructuring).
 - [ ] Are we documenting code that the open source community can easily understand and use?
 - [ ] Are we using an appropriate [open source license](https://choosealicense.com/licenses/) based on the libraries we've used and how we want our project to be used?
