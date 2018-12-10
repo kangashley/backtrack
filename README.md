@@ -23,6 +23,7 @@ We welcome constructive feedback and contributions in the form of design, code, 
 - New to open source? Start at [First Timers Only](https://www.firsttimersonly.com/), check out [Mozilla Pulse](https://www.mozillapulse.org/featured) to learn about projects for an open and healthy internet, and consider participating in GitHub's [24 Pull Requests](https://24pullrequests.com/)! 🎁 More soon on our thoughts about open source.
 - Explore the [Spotify Web API Reference](https://developer.spotify.com/documentation/web-api/reference/).
 - Study the audio feature values of tracks from 4 umbrella genres (ambient/electronic, hip hop, pop, jazz/R&B/soul). Here's a [playlist](https://open.spotify.com/playlist/5Cox7Zd2wTFFIOO1KOwpAW) of the songs we studied.
+- Follow the [code (and comments!) in Glitch](https://glitch.com/~backtrack).
 
 ### How to contribute
 - Some nice-to-have features we've discussed:
@@ -37,7 +38,7 @@ _December 6_
   - #TODO: Connect data from `server.js` to `client.js`. Prepare .zip of source code. Export project from Glitch to GitHub (there's a button for this!). Add contributor guide to documentation.
 
 _December 1_
-  - Ashley: Considering a design in which you can search for a track on a left panel, then see a stack of audio feature visualizations on the right. Exploring meaningful visuals (ex: 💃🏽🕺🏽 emoji, .png), animation patterns (ex: waves), and color schemes for each audio feature. Defining how an audio feature value determines the "intensity" of the animation. Refactoring server.js using async/await so we can actually see the API data (in JSON) in the console when looking up and selecting a track!
+  - Ashley: Considering a design in which you can search for a track on a left panel, then see a stack of audio feature visualizations on the right. Exploring meaningful visuals (ex: 💃🏽🕺🏽 emoji, [humaaans](https://www.humaaans.com/) in .png), animation patterns (ex: waves), and color schemes for each audio feature. Defining how an audio feature value determines the "intensity" of the animation. Refactoring server.js using async/await so we can actually see the API data (in JSON) in the console when looking up and selecting a track!
 
 _November 15_
   - Ashley: Working over at [Backtrack on Glitch](https://backtrack.glitch.me/). Thinking about how the movement of a visual form can be determined by a range based on an audio feature value. Bringing in [p5.js script](https://p5js.org/download/). Exploring [song credits info](https://www.discogs.com/help/creditslist) thanks to [Discogs API](https://www.discogs.com/developers/#page:database,header:database-artist) and fetching multiple APIs using async and await in JavaScript.
