@@ -95,7 +95,7 @@ _November 8_
     - Ashley: MacBook Pro (Mid 2012, 64-bit), Ubuntu 18.04.1 LTS
     - Jazmin: MacBook Air (Early 2015, 64-bit), Linux Mint 19 "Tara"
   - Version control: git with GitHub
-  - Project management: GitHub Kanban project board
+  - Project management: [GitHub Kanban project board](https://github.com/kangashley/254-project/projects/1)
 - [ ] Are we communicating effectively?
   - Weekly check-ins and temperature checks on how we feel about our tasks and workloads have been helpful.
 - [ ] Are we contributing to a code base to (a) solve a problem we've identified, (b) facilitate the performance of a difficult task, _or_ (c) provide functionalities that are missing in other applications?
