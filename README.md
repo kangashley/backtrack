@@ -1,12 +1,23 @@
-# An open source project in progress
-An open source project collaboration between Ashley Kang ([@kangashley](https://github.com/kangashley)) and Jazmin Esqueda ([@jazesq](https://github.com/jazesq)), for "Software Development with Open Source Systems"
+# Backtrack: An open source project in progress
+Creating a playlist? Search for a track in Spotify's catalog to figure out how much danceability, energy, and moodiness to add to your mix. Backtrack is an open source project collaboration between Ashley Kang ([@kangashley](https://github.com/kangashley)) and Jazmin Esqueda ([@jazesq](https://github.com/jazesq)), for "Software Development with Open Source Systems."
 
 ## Features
 - Remember Windows Media Player? How might we make music listening more visual?
 - How might we analyze data about sounds to make visible all the people and work behind making sounds?
 - How might we connect sounds with visuals?
+> **Danceability** describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 
+1.0 is most danceable. **Energy** is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset 
+rate, and general entropy. **Valence** is a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
 
 ## Check-ins
+_December 6_
+  - Ashley: Refactored server.js using async/await to see in the console (browser debugger) how Backtrack is interacting with the API. This involved upgrading Node.js from version 6 to 10. `server.js` now returns just the 3 audio features we're interested in: danceability, energy, and valence.
+  - Jazmin: Added label to each audio feature panel. Working on translating the audio feature values (0.0-1.0) to animation speed, etc. Refining animation for each audio feature. Friends wish they had something like this while making a playlist for their wedding and activities with youth!
+  - #TODO: Connect data from `server.js` to `client.js`. Prepare .zip of source code. Export project from Glitch to GitHub (there's a button for this!). Add contributor guide to documentation.
+
+_December 1_
+  - Ashley: Considering a design in which you can search for a track on a left panel, then see a stack of audio feature visualizations on the right. Exploring meaningful visuals (ex: 💃🏽🏻🕺 emoji, .png), animation patterns (ex: waves), and color schemes for each audio feature. Defining how an audio feature value determines the "intensity" of the animation. Refactoring server.js using async/await so we can actually see the API data (in JSON) in the console when looking up and selecting a track!
+
 _November 15_
   - Ashley: Working over at [Backtrack on Glitch](https://backtrack.glitch.me/). Thinking about how the movement of a visual form can be determined by a range based on an audio feature value. Bringing in [p5.js script](https://p5js.org/download/). Exploring [song credits info](https://www.discogs.com/help/creditslist) thanks to [Discogs API](https://www.discogs.com/developers/#page:database,header:database-artist) and fetching multiple APIs using async and await in JavaScript.
   
@@ -51,10 +62,15 @@ _November 8_
 ## Requirements
 
 - [ ] Are we using a Linux-based system, a command-line interface, and Computer-Assisted Software Engineering (CASE) tools (ex: version control systems, documentation tools, issue trackers) to manage this project and develop software?
-  - Ashley: MacBook Pro (Mid 2012, 64-bit), Ubuntu 18.04.1 LTS
-  - Jazmin: MacBook Air (Early 2015, 64-bit), Linux Mint 19 "Tara"
+  - Operating system:
+    - Ashley: MacBook Pro (Mid 2012, 64-bit), Ubuntu 18.04.1 LTS
+    - Jazmin: MacBook Air (Early 2015, 64-bit), Linux Mint 19 "Tara"
+  - Version control: git with GitHub
+  - Project management: GitHub Kanban project board
 - [ ] Are we communicating effectively?
+  - Weekly check-ins and temperature checks on how we feel about our tasks and workloads have been helpful.
 - [ ] Are we contributing to a code base to (a) solve a problem we've identified, (b) facilitate the performance of a difficult task, _or_ (c) provide functionalities that are missing in other applications?
 - [ ] Are we designing code that can adapt to changes in code dependencies?
+  - Refactoring involved upgrading dependencies.
 - [ ] Are we documenting code that the open source community can easily understand and use?
 - [ ] Are we using an appropriate [open source license](https://choosealicense.com/licenses/) based on the libraries we've used and how we want our project to be used?
