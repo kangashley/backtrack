@@ -31,6 +31,7 @@ We welcome constructive feedback and contributions in the form of design, code, 
   - Test accessibility
   - After searching a track, add it to a playlist in your library
   - Display [Song Credits](https://www.theverge.com/2018/8/14/17689230/spotify-songwriter-producer-credits-display) info front and center (once Spotify releases an API endpoint for that)
+  - Explore other ways of visualizing and animating the audio features data
 
 ## Check-ins
 _December 6_
