@@ -6,6 +6,7 @@ Creating a playlist? Look up any track in Spotify's catalog for more info on how
 ## Guiding questions
 - Remember the days we listened to tracks on Windows Media Player? How might we make music listening more visual and more in tune with what we're doing and where we're at in our lives?
 - How might we analyze data about sounds to make visible all the people and work behind making sounds?
+- What kind of decisions are made with data? How do those decisions shape a Spotify user's experience?
 
 ## Features
 - Server: Node.js 10 with Express 4, Spotify Web API via [Node.js wrapper](https://github.com/thelinmichael/spotify-web-api-node) and [Client Credentials App Authorization Flow](https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow)
