@@ -9,10 +9,10 @@ Creating a playlist? Look up any track in Spotify's catalog for more info on how
 - What kind of decisions are made with data? How do those decisions shape a Spotify user's experience?
 
 ## Features
-- Server: Node.js 10 with Express 4, Spotify Web API via [Node.js wrapper](https://github.com/thelinmichael/spotify-web-api-node) and [Client Credentials App Authorization Flow](https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow)
+- Server: Node.js 10.14.1 with Express 4.16.4, Spotify Web API via [Node.js wrapper](https://github.com/thelinmichael/spotify-web-api-node) 4.0.0 and [Client Credentials App Authorization Flow](https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow)
 - Data: JSON from Spotify Web API [Get Several Tracks](https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-tracks/) and [Get Audio Features for a Track](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/) endpoints
-- Client: HTML, CSS, JavaScript with jQuery and p5.js libraries, Google Fonts
-- Visualization:
+- Client: HTML, CSS, JavaScript with jQuery 3.3.1, Google Fonts
+- Visualization: p5.js * library
 > **Danceability** describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 
 1.0 is most danceable. **Energy** is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset 
 rate, and general entropy. **Valence** is a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
@@ -92,7 +92,7 @@ _November 8_
   - ["Communicating Between Java Applets and Javascript"](http://dillonbuchanan.com/programming/communicating-between-java-applets-and-javascript/) (Dillon Buchanan)
   - [SoundCloud HTTP API Guide](https://developers.soundcloud.com/docs/api/guide)
   
-## Requirements
+## Project requirements
 
 - [x] Are we using a Linux-based system, a command-line interface, and Computer-Assisted Software Engineering (CASE) tools (ex: version control systems, documentation tools, issue trackers) to manage this project and develop software?
   - Operating system:
@@ -105,7 +105,7 @@ _November 8_
 - [x] Are we contributing to a code base to (a) solve a problem we've identified, (b) facilitate the performance of a difficult task, _or_ (c) provide functionalities that are missing in other applications?
   - Our project's features explore questions we've had from the start, including: How might we improve our music listening experiences? How might we interact with data as music listeners and developers?
 - [x] Are we designing code that can adapt to changes in code dependencies?
-  - Refactoring `server.js` involved updating the Node.js version in order to use new JavaScript features (async/await, destructuring). Using Glitch as our development playground enabled us to simply update `package.json` (instead of running commands with a package manager) and see the fruits of those updates instantly.
+  - Refactoring `server.js` involved updating the Node.js version in order to use new JavaScript features (async/await, destructuring). After an alert about a low severity vulnerability due to a DDoS on a dependency, Spotify Web API Node was updated from 2.3.6 to 4.0.0 and Express 4.15.2 to 4.16.4. On the client side, jQuery was updated from 2.2.1 to 3.3.1. Using Glitch as our development playground enabled us to simply update `package.json` (instead of manually running commands with a package manager) and see the fruits of those updates instantly.
 - [x] Are we documenting code that the open source community can easily understand and use?
   - Making code more readable and data less invisible regardless of expertise have motivated our efforts to refactor code like JavaScript "callback hell", include comments with links to references, and utilize debugging tools like `console.log`. We've also included in this README a work-in-progress contributor's guide to making contributions in code and other forms.
 - [x] Are we using an appropriate [open source license](https://choosealicense.com/licenses/) based on the libraries we've used and how we want our project to be used?
