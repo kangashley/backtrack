@@ -43,10 +43,13 @@ _December 6_
   - #TODO: Connect data from `server.js` to `client.js`. Prepare .zip of source code. Export project from Glitch to GitHub (there's a button for this!). Add contributor guide to documentation.
 
 _December 1_
-  - Ashley: Considering a design in which you can search for a track on a left panel, then see a stack of audio feature visualizations on the right. Exploring meaningful visuals (ex: 💃🏽🕺🏽 emoji, [humaaans](https://www.humaaans.com/) in .png), animation patterns (ex: waves), and color schemes for each audio feature. Defining how an audio feature value determines the "intensity" of the animation. Refactoring server.js using async/await so we can actually see the API data (in JSON) in the console when looking up and selecting a track!
+  - Ashley: Considering a design in which you can search for a track on a left panel, then see a stack of audio feature visualizations on the right. Exploring meaningful visuals (ex: 💃🏽🕺🏽 emoji, [humaaans](https://www.humaaans.com/) in .png), animation patterns (ex: waves), and color schemes for each audio feature. Refactoring server.js using async/await so we can actually see the API data (in JSON) in the console when looking up and selecting a track!
+ -Jazmin: Began trying to deifine how the values given by the Spotify API would translate to annimations. Decided to multuply values by 10 to get an accurate speed. Talked about color schemes and began talking about different animations to accuretly represent values from API in a visual setting. 
 
 _November 15_
   - Ashley: Working over at [Backtrack on Glitch](https://backtrack.glitch.me/). Thinking about how the movement of a visual form can be determined by a range based on an audio feature value. Bringing in [p5.js script](https://p5js.org/download/). Exploring [song credits info](https://www.discogs.com/help/creditslist) thanks to [Discogs API](https://www.discogs.com/developers/#page:database,header:database-artist) and fetching multiple APIs using async and await in JavaScript.
+  -Jazmin: Finished working on bouncing ball animation with P5js. Worked with one main panel. Tried to make random directions but was unsuccessful. 
+TODO: Add diffrerent panels above main panels to allow seperation of info from Spotify API. 
   
 _November 8_
   - Ashley: Studying audio features "danceability", "energy", and "valence" from Spotify Web API's [Get Audio Features for a Track](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/). Navigating authorization stuff in Spotify. Looking into "remixing" a project in Glitch that sets up Spotify API requests with NodeJS.
