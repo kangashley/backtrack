@@ -1,7 +1,7 @@
 # Backtrack: An open source project in progress
 
 ## About
-Creating a playlist? Look up any track in Spotify's catalog for more info on how much danceability, energy, and moodiness to add to your mix. Backtrack is a remix of Spotify Developer Advocate Arielle Vaniderstine's Audio Features project on Glitch under the MIT License and an open source project collaboration between Ashley Kang ([@kangashley](https://github.com/kangashley)) and Jazmin Esqueda ([@jazesq](https://github.com/jazesq)) for "Software Development with Open Source Systems" (Fall 2018).
+Creating a playlist? Look up any track in Spotify's catalog for more info on how much danceability, energy, and moodiness to add to your mix. Backtrack is a remix of Spotify Developer Advocate Arielle Vaniderstine's Audio Features project on Glitch under the [MIT License](https://choosealicense.com/licenses/mit/) and an open source project collaboration between Ashley Kang ([@kangashley](https://github.com/kangashley)) and Jazmin Esqueda ([@jazesq](https://github.com/jazesq)) for "Software Development with Open Source Systems" (Fall 2018).
 
 ## Guiding questions
 - Remember the days we listened to tracks on Windows Media Player? How might we make music listening more visual and more in tune with what we're doing and where we're at in our lives?
@@ -27,15 +27,18 @@ We welcome constructive feedback and contributions in the form of design, code, 
 - Follow the [code (and comments!) in Glitch](https://glitch.com/~backtrack).
 
 ### How to contribute
+- #TODO
+  - Seamlessly access and manipulate API data in p5 client
+  - Test for accessibility
+  - Debug lag in displaying track results from search
 - Some nice-to-have features we've discussed:
-  - Test accessibility
   - After searching a track, add it to a playlist in your library
   - Display [Song Credits](https://www.theverge.com/2018/8/14/17689230/spotify-songwriter-producer-credits-display) info front and center (once Spotify releases an API endpoint for that)
   - Explore other ways of visualizing and animating the audio features data
 
 ## Check-ins
 _December 6_
-  - Ashley: Refactored server.js using async/await to see in the console (browser debugger) how Backtrack is interacting with the API. This involved upgrading Node.js from version 6 to 10. `server.js` now returns just the 3 audio features we're interested in: danceability, energy, and valence.
+  - Ashley: Refactored server.js using async/await to see in the console (browser debugger) how Backtrack is interacting with the API. This involved upgrading Node.js from version 6.10.x to 10.14.1. `server.js` now returns just the 3 audio features we're interested in: danceability, energy, and valence.
   - Jazmin: Added label to each audio feature panel. Working on translating the audio feature values (0.0-1.0) to animation speed, etc. Refining animation for each audio feature. Friends wish they had something like this while making a playlist for their wedding and activities with youth!
   - #TODO: Connect data from `server.js` to `client.js`. Prepare .zip of source code. Export project from Glitch to GitHub (there's a button for this!). Add contributor guide to documentation.
 
@@ -62,6 +65,7 @@ _November 8_
   - 🔍 [Music ideas on Glitch](https://glitch.com/music)
   - [fftvisualize](https://glitch.com/~fftvisualize) (Hector Urtubia)
 - Technology stack
+  - [ES7 Async/Await](http://rossboucher.com/await/) (Ross Boucher)
   - 🔍 [Using Async Await in Express with Node 9](https://medium.com/@Abazhenov/using-async-await-in-express-with-node-8-b8af872c0016)
   - [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance)
   - 🔍 [Async/Await Will Make Your Code Simpler](https://blog.patricktriest.com/what-is-async-await-why-should-you-care/)
@@ -90,16 +94,19 @@ _November 8_
   
 ## Requirements
 
-- [ ] Are we using a Linux-based system, a command-line interface, and Computer-Assisted Software Engineering (CASE) tools (ex: version control systems, documentation tools, issue trackers) to manage this project and develop software?
+- [x] Are we using a Linux-based system, a command-line interface, and Computer-Assisted Software Engineering (CASE) tools (ex: version control systems, documentation tools, issue trackers) to manage this project and develop software?
   - Operating system:
-    - Ashley: MacBook Pro (Mid 2012, 64-bit), Ubuntu 18.04.1 LTS
-    - Jazmin: MacBook Air (Early 2015, 64-bit), Linux Mint 19 "Tara"
-  - Version control: git with GitHub
+    - Ashley: MacBook Pro (Mid 2012, 64-bit), Ubuntu 18.04.1 LTS, macOS High Sierra
+    - Jazmin: MacBook Air (Early 2015, 64-bit), Linux Mint 19 "Tara", macOS Mojave
+  - Version control: git with GitHub, Glitch Rewind
   - Project management: [GitHub Kanban project board](https://github.com/kangashley/254-project/projects/1)
-- [ ] Are we communicating effectively?
+- [x] Are we communicating effectively?
   - Weekly check-ins and temperature checks on how we feel about our tasks and workloads have been helpful.
-- [ ] Are we contributing to a code base to (a) solve a problem we've identified, (b) facilitate the performance of a difficult task, _or_ (c) provide functionalities that are missing in other applications?
-- [ ] Are we designing code that can adapt to changes in code dependencies?
-  - Refactoring `server.js` involved upgrading the Node.js dependency in order to use new JavaScript features (async/await, destructuring).
-- [ ] Are we documenting code that the open source community can easily understand and use?
-- [ ] Are we using an appropriate [open source license](https://choosealicense.com/licenses/) based on the libraries we've used and how we want our project to be used?
+- [x] Are we contributing to a code base to (a) solve a problem we've identified, (b) facilitate the performance of a difficult task, _or_ (c) provide functionalities that are missing in other applications?
+  - Our project's features explore questions we've had from the start, including: How might we improve our music listening experiences? How might we interact with data as music listeners and developers?
+- [x] Are we designing code that can adapt to changes in code dependencies?
+  - Refactoring `server.js` involved updating the Node.js version in order to use new JavaScript features (async/await, destructuring). Using Glitch as our development playground enabled us to simply update `package.json` (instead of running commands with a package manager) and see the fruits of those updates instantly.
+- [x] Are we documenting code that the open source community can easily understand and use?
+  - Making code more readable and data less invisible regardless of expertise have motivated our efforts to refactor code like JavaScript "callback hell", include comments with links to references, and utilize debugging tools like `console.log`. We've also included in this README a work-in-progress contributor's guide to making contributions in code and other forms.
+- [x] Are we using an appropriate [open source license](https://choosealicense.com/licenses/) based on the libraries we've used and how we want our project to be used?
+  - Backtrack is a remix of a project under the [MIT License](https://choosealicense.com/licenses/mit/) and respects the preservation of the original copyright and license notices.
