@@ -1,0 +1,106 @@
+/* styles.css is called by `views` template engine in `server.js` */
+
+@import url('https://fonts.googleapis.com/css?family=Contrail+One|Overpass');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://cdn.glitch.com/fa3b1bec-50c2-4706-80e4-e2a7edd04c8c%2Fefe-kurnaz-315384-unsplash.jpg?1544505190792);
+  background-size: cover;
+  background-color: hsl(261, 44%, 38%);
+  padding: 5vh 5vw;
+}
+
+h1 {
+  font-family: Contrail One;
+  font-size: 5em;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 96%);
+  text-shadow: 0 0 20px hsl(0, 0%, 70%), 1px 2px hsl(353, 88%, 57%), 0 -2px hsl(180, 100%, 50%);
+}
+
+p {
+  font-family: Overpass;
+  font-size: 1.1em;
+  max-width: 700px;
+  color: hsl(0, 0%, 96%);
+}
+
+a, a:visited {
+  background-color: hsl(334, 94%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+li {
+  margin-bottom: 5px;
+  list-style-type: '👉 ';
+  font-family: Overpass;
+  font-size: 1em;
+  color: hsl(0, 0%, 100%);
+}
+
+input {
+  font-family: Overpass;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.btn-backtrack {
+  background-color: hsl(334, 94%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.animation-danceability {
+  width: 100%;
+}
+
+svg {
+  width: 600px;
+  height: 400px;
+}
+
+path {
+  stroke: #2727e6;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  fill: none;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid hsl(0, 0%, 100%);
+}
+
+/*
+.nicejob {
+  text-decoration: line-through;
+}
+*/
+
+#results {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 30vh;
+}
+
+#results li {
+  background-color: hsl(334, 94%, 63%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  #results {
+    display: inline-block;
+    max-height: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #results {
+    max-height: 15vh;
+  }
+}
