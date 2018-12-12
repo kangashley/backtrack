@@ -1,0 +1,32 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "backtrack",
+  "version": "0.0.1",
+  "description": "Creating a playlist? Look up any track in Spotify's catalog for more info on how much danceability, energy, and moodiness to add to your mix.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "spotify-web-api-node": "^4.0.0",
+    "chart.js": "^2.7.3",
+    "p5": "*"
+  },
+  "engines": {
+    "node": "10.14.1"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "glitch",
+    "node",
+    "express",
+    "spotify",
+    "p5"
+  ]
+}

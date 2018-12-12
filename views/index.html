@@ -1,0 +1,64 @@
+<!-- index.html is a static file served by routes in `server.js` -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backtrack</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://sp-bootstrap.global.ssl.fastly.net/8.0.0/sp-bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Backtrack
+      </h1>
+      <p>
+        Creating a playlist? Look up any track in Spotify's catalog for more info on how much danceability, energy, and moodiness to add to your mix. <a href="https://developer.spotify.com/web-api/get-audio-features" target="_blank">Where are the numbers from?</a>
+      </p>
+    </header>
+
+    <main>
+      <p>👇 Search for a track or an artist:</p>
+      <form>
+        <input type="text" maxlength="100" placeholder="Track or Artist Name">
+        <button class="btn btn-sm btn-backtrack" type="submit">Look this up</button>
+      </form>
+      <section class="features">
+        <p>
+          👇 Then select a track to see how danceable, energetic, and moody it is:
+        </p>
+        <ul id="results">
+        </ul>
+        <div id="features-chart-container">
+          <canvas id="features-chart" width="400" height="200"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="https://glitch.com/@a" target="_blank">Remixed from Arielle Vaniderstine</a>
+        <br/><a href="https://glitch.com/edit/#!/backtrack" target="_blank">
+        Remix this in Glitch
+        </a>
+        <br/><a href="https://choosealicense.com/licenses/mit/" target="_blank">Respect the MIT License</a>
+      </p>
+    </footer>
+
+    <!-- Use https -->
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script>
+    <script src="/client.js"></script>
+    <script src="/sketch.js"></script>
+  </body>
+</html>
