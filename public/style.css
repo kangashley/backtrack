@@ -31,6 +31,7 @@ p {
 a, a:visited {
   background-color: hsl(334, 94%, 63%);
   color: hsl(0, 0%, 100%);
+  text-decoration: none;
 }
 
 li {
@@ -52,34 +53,6 @@ input {
   color: hsl(0, 0%, 100%);
 }
 
-.animation-danceability {
-  width: 100%;
-}
-
-svg {
-  width: 600px;
-  height: 400px;
-}
-
-path {
-  stroke: #2727e6;
-  stroke-width: 10px;
-  stroke-linecap: round;
-  fill: none;
-}
-
-footer {
-  margin-top: 50px;
-  padding-top: 25px;
-  border-top: 1px solid hsl(0, 0%, 100%);
-}
-
-/*
-.nicejob {
-  text-decoration: line-through;
-}
-*/
-
 #results {
   display: flex;
   flex-direction: column;
@@ -90,6 +63,12 @@ footer {
 #results li {
   background-color: hsl(334, 94%, 63%);
   cursor: pointer;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid hsl(0, 0%, 100%);
 }
 
 @media screen and (max-width: 900px) {

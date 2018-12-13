@@ -51,15 +51,11 @@ function getFeatures(id) {
         options: {
             legend: {
               display: false,
-              labels: {
-                fontColor: "white",
-                fontSize: 18
-              }
            },
             scales: {
                 yAxes: [{
                     ticks: {
-                        beginAtZero:true,
+                        beginAtZero: true,
                         max: 1
                     }
                 }]
