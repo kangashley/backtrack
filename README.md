@@ -1,4 +1,4 @@
-# Backtrack: An open source project in progress
+# Backtrack: An open source project
 
 ## About
 Creating a playlist? Look up any track in Spotify's catalog for more info on how much danceability, energy, and moodiness to add to your mix. Backtrack is a remix of Spotify Developer Advocate Arielle Vaniderstine's Audio Features project on Glitch under the [MIT License](https://choosealicense.com/licenses/mit/) and an open source project collaboration between Ashley Kang ([@kangashley](https://github.com/kangashley)) and Jazmin Esqueda ([@jazesq](https://github.com/jazesq)) for "Software Development with Open Source Systems" (Fall 2018).
